@@ -31,6 +31,8 @@
 #
 # Write your code below:
 
+for i in range(5):
+    print("Message number", (i + 1))
 
 # Task 2: Counting with for loops
 # -------------------------------------------
@@ -46,7 +48,12 @@
 #     print(i)
 #
 # Write your code below:
-
+print("Counting up...")
+for i in range(10):
+    print(i + 1)
+print("Counting down...")
+for i in range(10):
+    print(10 - i)
 
 # Task 3: Using for loops with user input
 # -------------------------------------------
@@ -62,7 +69,9 @@
 #     print("This is loop", i + 1)
 #
 # Write your code below:
-
+user = int(input("How many times would you like to repeat this message? "))
+for i in range(user):
+    print(i + 1, "Mississipi")
 
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
