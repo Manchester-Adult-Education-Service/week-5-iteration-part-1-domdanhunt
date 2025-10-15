@@ -32,6 +32,10 @@
 # Write your code below:
 
 
+for i in range(5):
+    print("1: Message number", (i + 1))
+
+
 # Task 2: Counting with for loops
 # -------------------------------------------
 # You can use range() to count numbers up or down.
@@ -48,6 +52,14 @@
 # Write your code below:
 
 
+print("2: Counting up...")
+for i in range(10):
+    print(i + 1)
+print("Counting down...")
+for i in range(10):
+    print(10 - i)
+
+
 # Task 3: Using for loops with user input
 # -------------------------------------------
 # You can combine input() with for loops.
@@ -62,6 +74,11 @@
 #     print("This is loop", i + 1)
 #
 # Write your code below:
+
+
+user = int(input("3: How many times would you like to repeat this message? "))
+for i in range(user):
+    print(i + 1, "Mississipi")
 
 
 # -------------------------------------------
@@ -99,6 +116,12 @@
 # Write your code below:
 
 
+word = input("Ex1: Please enter a word as long as you like and I'll break it down: ")
+for i in word:
+    print(i)
+
+
+
 # Extension 2:
 # -------------------------------------------
 # Ask the user to enter a number.
@@ -106,6 +129,12 @@
 # Hint: You can use range(start, stop, step) — for example, range(0, 10, 2)
 
 # Write your code below:
+
+num = int(input("Ex2: Please enter a number: "))
+
+for i in range(0, num + 1, 2):
+    print(i)
+
 
 
 # Extension 3 (a bit harder):
@@ -126,6 +155,12 @@
 
 # Write your code below:
 
+usr = input("Ex3: Please enter your full name: ")
+for i in usr:
+    print(i)
+if i == " ":
+    print(-i)
+    
 
 # -------------------------------------------
 # ADVANCED ACTIVITY
@@ -144,6 +179,12 @@
 # print(f"{num} x {i} = {num * i}")
 
 # Write your code below:
+
+num1 = int(input("Advanced: Please enter a number: "))
+num2 = range(1,11)
+for i in num2:
+    print(f"{num1} x {i} = {num1 * i}")
+
 
 
 # -------------------------------------------
